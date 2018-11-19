@@ -30,7 +30,6 @@ Code for 2nd place solution (private LB) for American Express hackathon hosted b
    Finally for test predictions, I had decided to average 3 runs with different seeds to help generalize better (but forgot to change seed in loop :'( )
    
    For making predictions on test set, two training sets were used
-   
      * Complete training data
      * Training data leaving out first date
    and predictions were averaged
