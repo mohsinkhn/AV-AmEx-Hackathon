@@ -27,11 +27,11 @@ Code for 2nd place solution (private LB) for American Express hackathon hosted b
    * **User-User similarity features** - To help model pack similar users together, user ad counts on for different products, wepbpage_ids and day of week were used.
    * **Historical Log features** - Since, historical logs had information on what Ads a user has clicked in past. Total counts, product counts, dayofweek counts etc. were  calculated. Also, statistics on how many ads were shown to user at the same time were used.
    
-   Finally for test predictions, I had decided to average 3 runs with different seeds to help generalize better (but forgot to change seed in loop :'( )
+Finally for test predictions, I had decided to average 3 runs with different seeds to help generalize better (but forgot to change seed in loop :'( )
    
-   For making predictions on test set, two training sets were used
-     * Complete training data
-     * Training data leaving out first date
+For making predictions on test set, two training sets were used
+  * Complete training data
+  * Training data leaving out first date
    and predictions were averaged
    
 
